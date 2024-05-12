@@ -1,3 +1,3 @@
 javascript + react + css 
 
-2D platfor game 
+2D platfor game   still in progress...
