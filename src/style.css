@@ -1,0 +1,822 @@
+.game-screen {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    
+  }
+  body {
+    overflow: hidden;
+    background-color: #000;
+}
+  
+  .background-video-page1{
+    width: 100%;
+    max-height: 700px;
+  }
+
+  
+  .login-input1-page1 {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    width: 10%;
+    height: 10%;
+    background: none;
+    border: none;
+    opacity: 70%;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  
+  .login-input2-page1 {
+    position: absolute;
+    top: 56%;
+    left: 43%;
+    width: 10%;
+    height: 10%;
+    background: none;
+    border: none;
+    opacity: 70%;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  
+  .login-button-page1 {
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    width: 10%;
+    height: 10%;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+      transform: scale(1.2);
+    }
+  }
+  
+  .register-button-page1 {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    width: 10%;
+    height: 10%;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+      transform: scale(1.2);
+    }
+  }
+
+  .register-box-page1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    padding: 20px;
+    background: rgba(109, 107, 107, 0.8);
+    border: 1px solid #080808;
+    border-radius: 8px;
+    width: 40%;
+    height: 50%;
+    margin-bottom: 50px;
+
+}
+
+.input-register-box-page1{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    width: 10%;
+    height: 10%;
+    background: none;
+    border: none;
+    opacity: 70%;
+}
+
+.input-text1-register-box-page1{
+    width: 300%;
+    display: inline-block;
+}
+
+.input-text2-register-box-page1{
+    width: 300%;
+    display: inline-block;
+}
+
+.input-text3-register-box-page1{
+    width: 300%;
+    display: inline-block;
+}
+
+.register-quit-button-image-box-page1{
+    position: absolute;
+    top: 70%;
+    left: 72%;
+    width: 10%;
+    height: 10%;
+    color: aliceblue;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.register-createuser-button-image-box-page1{
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    width: 20%;
+    height: 10%;
+    color: aliceblue;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+  
+  
+  .Entry-quit-button-page1{
+    position: absolute;
+    top: 87%;
+    left: 85%;
+    width: 10%;
+    height: 10%;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline; 
+        transform: scale(1.2); 
+      }
+  }
+
+  .forgotPass-button-page1{
+    position: absolute;
+    top: 87%;
+    left: 10%;
+    width: 20%;
+    height: 10%;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline; 
+        transform: scale(1.2); 
+      }
+  }
+
+  .forgotPass-box-page1{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    padding: 20px;
+    background: rgba(109, 107, 107, 0.8);
+    border: 1px solid #080808;
+    border-radius: 8px;
+    width: 40%;
+    height: 50%;
+    color: aliceblue;
+  }
+
+ 
+
+  .forgotPass-input-box-page1{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    
+
+  }
+
+  .forgotPass-confirm-button-page1{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    width: 10%;
+    height: 10%;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline; 
+        transform: scale(1.2); 
+      }
+  }
+
+  .forgotPass-quit-button-page1{
+    position: absolute;
+    top: 70%;
+    left: 58%;
+    width: 10%;
+    height: 10%;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline; 
+        transform: scale(1.2); 
+      }
+  }
+
+
+  .game-screen-page2 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: grid;
+   
+  }
+
+
+  .background-createpage-page2 {
+    width: 95%;
+    height: 90%;
+   padding-left: 10px;
+    
+  }
+
+
+  .settings-wheel-button-createpage-page2{
+    position: absolute;
+    top: 12%;
+    left: 89%;
+    width: 2%;
+    height: 3%;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.2); 
+      }
+
+  }
+
+  .back-button-createpage-page2{
+    position: absolute;
+    top: 90%;
+    left: 86%;
+    width: 10%;
+    height: 10%;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+      transform: scale(1.2); 
+    }
+
+  }
+
+  .enter-button-createpage-page2{
+    position: absolute;
+    top: 90%;
+    left: 49%;
+    width: 10%;
+    height: 10%;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+      transform: scale(1.2); 
+    }
+
+  }
+
+  .add1-button-createpage-page2{
+
+    position: absolute; 
+    top: 70%; 
+    left: 45%; 
+    transform: translateX(-50%);
+    width: 5%;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .add2-button-createpage-page2{
+
+    position: absolute; 
+    top: 70%; 
+    left: 65%; 
+    transform: translateX(-50%);
+    width: 5%;
+    z-index: 1;
+    cursor: pointer;
+     
+  }
+
+
+  .add3-button-createpage-page2{
+
+    position: absolute; 
+    top: 70%; 
+    left: 75%; 
+    transform: translateX(-50%);
+    width: 5%;
+    z-index: 1;
+    cursor: pointer;
+
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%; 
+    max-width: 400px; 
+    height: auto; 
+  }
+  
+  .modal-content-img {
+    width: 10%;
+    height: 10%; 
+    padding-left: 30%;
+    
+  }
+  
+  .navigation-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .navigation-button button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+.confirm{
+  left: 70%;
+}
+
+  .stats-box-createpage-page2{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background: rgba(109, 107, 107, 0.8);
+    border: 1px solid #080808;
+    border-radius: 8px;
+    width: 25%;
+    height: 85%;
+    margin-bottom: 50px;
+    opacity: 0.5;
+  }
+
+  .stats-box-text1-createpage-page2{
+        color: #000;
+        
+  }
+
+
+
+  .game-screen-page3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .background-createpage-page3 {
+    width: 100%;
+    min-height: 690px;
+    
+    
+    
+  }
+
+  .npc-quest-page3 {
+    position: absolute;
+    width: 4.5%;
+    height: 5%;
+    top: 29%;
+    left:50%;
+    cursor: pointer;
+    
+  }
+
+  .npc-quest-page3 img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .npc-traval-page3 {
+    position: absolute;
+    width: 4.5%;
+    height: 5%;
+    top: 29%;
+    left:40%;
+    cursor: pointer;
+    
+  }
+
+  .npc-traval-page3 img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+  .npc-store-page3 {
+    position: absolute;
+    width: 4.5%;
+    height: 5%;
+    top: 19%;
+    left:20%;
+    cursor: pointer;
+    
+  }
+
+  .npc-store-page3 img {
+    width: 100%;
+    height: auto;
+  }
+  
+ 
+
+.portal{
+position: absolute;
+  width: 8%;
+  cursor: pointer;
+  left: 93.5%;
+  top: 74%;
+}
+
+.portal2{
+  position: absolute;
+    width: 8%;
+    cursor: pointer;
+    left: -1.75%;
+    top: 70%;
+  }
+
+
+  .portal3{
+    position: absolute;
+      width: 8%;
+      cursor: pointer;
+      left: 94%;
+      top: 70%;
+    }
+
+    .portal4{
+      position: absolute;
+        width: 8%;
+        cursor: pointer;
+        left: -1.75%;
+        top: 70%;
+      }
+
+      .portal5{
+        position: absolute;
+          width: 8%;
+          cursor: pointer;
+          left: 94%;
+          top: 70%;
+        }
+
+        .portal6{
+          position: absolute;
+            width: 8%;
+            cursor: pointer;
+            left: 5%;
+            top: 80%;
+          }
+
+          .monster1{
+
+            position: absolute;
+            width: 25%;
+            height: 19%;
+           
+          }
+
+          .monster2{
+
+            position: absolute;
+            width: 25%;
+            height: 19%;
+            
+          }
+
+
+          .monster3{
+
+            position: absolute;
+            width: 25%;
+            height: 19%;
+            
+          }
+
+          .monster4{
+
+            position: absolute;
+            width: 25%;
+            height: 19%;
+           
+          }
+
+          .monster5{
+
+            position: absolute;
+            width: 25%;
+            height: 19%;
+            
+          }
+
+          .monster6{
+
+            position: absolute;
+            width: 25%;
+            height: 19%;
+            
+          }
+
+          .monster7{
+
+            position: absolute;
+            width: 25%;
+            height: 19%;
+            
+          }
+
+          .monster8{
+
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+          .monster9{
+
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+          .monster10{
+
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+          .monster11{
+
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+          .monster12{
+
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+          .monster13{
+
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+          .monster14{
+
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+          .monster15{
+
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+          .monster16{
+
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+          .monster17{
+
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+          .monster18{
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+          .monster19{
+
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+          .monster20{
+
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+
+          .monster21{
+
+            position: absolute;
+            width: 25%;
+            height: 17%;
+            
+          }
+
+
+          .player {
+            position: absolute;
+            width: 6%;
+            height: 15%;
+            
+          }
+        
+        
+          .player-bag img {
+            width: 100%;
+            height: auto;
+          }
+          
+        
+        .player-bag {
+          left: 50%; 
+          width: 2.5%;
+          height: 2.5%; 
+          cursor: pointer; 
+        
+        }
+        
+        .player-skills img {
+          width: 100%;
+          height: auto;
+        }
+        
+        .player-skills {
+          left: 60%; 
+          width: 2.5%;
+          height: 2.5%; 
+          cursor: pointer; 
+        
+        }
+        
+        .player-stats img {
+          width: 100%;
+          height: auto;
+        }
+        
+        .player-stats {
+          left: 70%; 
+          width: 2.5%;
+          height: 2.5%;  
+          cursor: pointer; 
+        
+        }
+        
+        .player-bag, .player-skills, .player-stats {
+          position: absolute; 
+          top: 93%;
+        }
+  
+          .attack1{
+            position: absolute;
+            width: 20px; /* גודל הקוביות - ניתן לשנות על פי הצורך */
+            height: 20px; /* גודל הקוביות - ניתן לשנות על פי הצורך */
+            background-color: red; /* צבע הקוביות - ניתן לשנות על פי הצורך */
+            z-index: 999;
+          }
+
+          .attack2{
+            position: absolute;
+            width: 20px; /* גודל הקוביות - ניתן לשנות על פי הצורך */
+            height: 20px; /* גודל הקוביות - ניתן לשנות על פי הצורך */
+            background-color: blue; /* צבע הקוביות - ניתן לשנות על פי הצורך */
+            z-index: 999;
+          }
+
+          .attack3{
+            position: absolute;
+            width: 20px; /* גודל הקוביות - ניתן לשנות על פי הצורך */
+            height: 20px; /* גודל הקוביות - ניתן לשנות על פי הצורך */
+            background-color: white; /* צבע הקוביות - ניתן לשנות על פי הצורך */
+            z-index: 999;
+          }
+
+
+
+          .playerBar {
+            position: absolute;
+            width: 99%;
+            height: 6.55%;
+            background-color: gray;
+            border: 1px solid black;
+            top: 93.3%;
+            left: 0.5%;
+            opacity: 0.5;
+        }
+
+
+        .playerHp {
+          position: absolute;
+          width: 10%;
+          height: 1%;
+          background-color: rgb(174, 172, 172);
+          top: 95.5%;
+          left: 37%;
+         
+      }
+
+      .playerMana {
+        position: absolute;
+        width: 10%;
+        height: 1%;
+        background-color: rgb(174, 172, 172);
+        top: 97.3%;
+        left: 37%;
+       
+    }
+
+    .playerExp {
+      position: absolute;
+      width: 99%;
+      height: 1%;
+      background-color: rgb(174, 172, 172);
+      top: 99%;
+      left: 0.5%;
+      
+     
+  }
+
+  .playerLevel {
+    position: absolute;
+    width: 96.95%;
+    height: 1%;
+    top: 93.3%;
+    left: 37%;
+    color: #fff;
+    font-size: 12px;
+}
+
+        
+
+         
+          
+
+       
